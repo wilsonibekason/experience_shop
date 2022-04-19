@@ -29,11 +29,21 @@
 
 
 @media screen and (max-width: 2000px) {
-    
+    .app__newsletter-input input{
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 980px) {
-    
+    .app__newsletter-input{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__newsletter-input input{
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 630px) {

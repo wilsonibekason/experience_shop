@@ -9,11 +9,11 @@
 }
 
 
-.app__footerOverlay-black{
+.app__footerOsverlay-black{
     height: 25%;
     background: var(--color-black);
 }
 
-.app__footerOverlay-img{
+.app__foeoterOverlay-img{
     height: 75%;
 }

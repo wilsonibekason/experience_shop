@@ -4,7 +4,7 @@ import { SubHeading} from '../../components'
 import './Newsletter.css';
 
 const Newsletter = () => (
-  <div className='app__newsletter'  style={{marginTop: '13rem'}}>
+  <div className='app__newsletter'  style={{marginTop: '1rem'}}>
     <div className="app__newsletter-heading">
       <SubHeading title='newsletter' />
       <h1 className="headtext__cormorant" style={{textAlign: 'center'}}>
@@ -16,7 +16,7 @@ const Newsletter = () => (
     </div>
 
     <div className="app__newsletter-input flex__center">
-      <input type="text" name='email' placeholder='Enter Your Email Address' />
+      <input type="email" name='email' placeholder='Enter Your Email Address' />
       <button className="custom__button">
         Subscribe
       </button>
